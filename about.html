@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>webedu.in</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;0,400;0,500;0,600;1,100;1,300;1,600&family=Rubik+Beastly&display=swap"
+        rel="stylesheet">
+    <!-- box icons -->
+ <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+
+</head>
+
+<body>
+    <!-- 1st page-Front view -->
+    <section class="Sub-Header">
+        <nav>
+            <a href="index.html"><img src="5.jpg"></a>
+            <div class="nav-links" id="navlinks">
+                <!-- <i class="fa fa-times" onclick="hideMenu()"></i> -->
+                <i class='bx bx-window-close' onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="/">HOME</a></li>
+                    <li><a href="/about.html">ABOUT</a></li>
+                    <li><a href="/login.html">LOGIN</a></li>
+                    <li><a href="/reg.html">REGISTER</a></li>
+                    <li><a href="/contact.html">CONTACT</a></li>
+
+                </ul>
+            </div>
+            <!-- <i class="fa fa-bars" onclick="showMenu()"></i> -->
+            <i class='bx bx-menu' onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+
+    <!-- ---about us content--- -->
+
+        <section class="about-us">
+            <div class="row">
+                <div class="about-col">
+                    <h1>OUR STORY</h1>
+                    <p>GITA (Gandhi Institute for Technological Advancement) is a well-known name in the field of technical education. Founded in 2004 & situated in the outskirts of Bhubaneswar, the college is a part of the famous Vidya Bharati Educational Trust – founder of the famed GIET, Gunupur. GITA has created a name for itself in the field of technical education in eastern India. The college is a trendsetter in the field of quality education and crafting successful engineers out of its students. It is approved by All India Council for Technical Education (AICTE) under Ministry of HRD, Govt. of India, recognized by Govt. of Odisha and is affiliated to Biju Patnaik University of Technology (BPUT), Rourkela.It is accredited by NAAC (National Assessment and Accreditation Council) at "A" grade with 3.30 CGPA( Highest in Odisha). It is also accredited by National Board of Accreditation (NBA) and approved by DSIR as SIRO (Scientific and Industrial Research Organization ).<br> 
+                        <br>
+                        GITA is proud of providing qualitative technical education and strives to imbibe the spirit of research in students. A citadel of knowledge the college since its inception has emerged with flying colours and is a name in the educational arena. It’s ranked among top engineering colleges of the country and boasts of excellent placement statistics over the years. Our students validate our claims by their performance not only in academics but also in the corporate world. They hone their knowledge & skills over the years with meticulous efforts & have proven their calibre in professional field. Our alumni remain true to the motto of the college i.e. 'Excellence Unbridled' far beyond graduation.</p>
+
+                    <a href="/" class="hero-btn red-btn">EXPLORE NOW</a>
+                </div>
+
+                <div class="about-col">
+                    <img src="1.jpg" alt="">
+                </div>
+            </div>
+        </section>
+
+
+
+    <!-- footer -->
+    <section class="footer">
+        <p>This website is made by Puja Kumari and u can connect with me....</p>
+        <div class="icon">
+            <a href="https://instagram.com/_puja_giri._?igshid=NGExMmI2YTkyZg=="><i class='bx bxl-instagram-alt'></i></a>
+            <a href="https://www.linkedin.com/in/puja-kumari-a51032275"><i class='bx bxl-linkedin-square' ></i></a>
+        </div>
+    </section>
+    
+    <!--  javascript for toggle menu -->
+
+    <script>
+        var navlinks = document.getElementById("navlinks");
+
+        function showMenu() {
+            navlinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navlinks.style.right = "-200px";
+        }
+
+
+    </script>
+
+    <!-- javascript close -->
+
+
+
+</body>
+
+</html>

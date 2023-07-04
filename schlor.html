@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>webedu.in</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;0,400;0,500;0,600;1,100;1,300;1,600&family=Rubik+Beastly&display=swap"
+        rel="stylesheet">
+    
+
+ <!-- box icons -->
+ <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+    <!-- 1st page-Front view -->
+    <section class="Sub-Header">
+        <nav>
+            <a href="index.html"><img src="5.jpg"></a>
+            <div class="nav-links" id="navlinks">
+              <i class='bx bx-window-close' onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="/">HOME</a></li>
+                    <li><a href="/about.html">ABOUT</a></li>
+                    <li><a href="/login.html">LOGIN</a></li>
+                    <li><a href="/reg.html">REGISTER</a></li>
+                    <li><a href="/contact.html">CONTACT</a></li>
+
+                </ul>
+            </div>
+            <i class='bx bx-menu' onclick="showMenu()"></i>
+        </nav>
+        <h1>Scholarship</h1>
+    </section>
+
+    <!-- ---schlorship page--- -->
+    <div class="scholarship-container">
+        <h2>Scholarship Information</h2>
+        <div class="scholarship-section">
+          <h3>Merit-Based Scholarships</h3>
+          <p>We offer merit-based scholarships to recognize and reward academic excellence. Eligibility criteria for merit-based scholarships include:</p>
+          <ul>
+            <li>Minimum GPA of 3.5 in the previous academic year</li>
+            <li>Outstanding performance in extracurricular activities</li>
+            <li>Strong recommendation letters</li>
+          </ul>
+        </div>
+        <div class="scholarship-section">
+          <h3>Need-Based Scholarships</h3>
+          <p>We provide need-based scholarships to support students with financial constraints. Eligibility criteria for need-based scholarships include:</p>
+          <ul>
+            <li>Demonstrated financial need based on income and family circumstances</li>
+            <li>Submission of financial documents, including income statements and tax returns</li>
+            <li>Statement of financial need and personal essay</li>
+          </ul>
+        </div>
+        <div class="scholarship-section">
+          <h3>External Scholarships</h3>
+          <p>In addition to our internal scholarships, students may also explore external scholarship opportunities. These scholarships are offered by organizations, foundations, and government bodies. We recommend visiting the following websites for more information:</p>
+          <ul>
+            <li><a href="https://www.scholarships.com">Scholarships.com</a></li>
+            <li><a href="https://www.fastweb.com">Fastweb</a></li>
+            <li><a href="https://www.cappex.com">Cappex</a></li>
+          </ul>
+        </div>
+      </div>
+        
+    <!-- footer -->
+    <section class="footer">
+      <p>This website is made by Puja Kumari and u can connect with me....</p>
+      <div class="icon">
+          <a href="https://instagram.com/_puja_giri._?igshid=NGExMmI2YTkyZg=="><i class='bx bxl-instagram-alt'></i></a>
+          <a href="https://www.linkedin.com/in/puja-kumari-a51032275"><i class='bx bxl-linkedin-square' ></i></a>
+      </div>
+  </section>
+  
+    <<!--  javascript for toggle menu -->
+
+    <script>
+      var navlinks = document.getElementById("navlinks");
+
+      function showMenu() {
+          navlinks.style.right = "0";
+      }
+
+      function hideMenu() {
+          navlinks.style.right = "-200px";
+      }
+
+
+  </script>
+
+  <!-- javascript close -->
+
+
+</body>
+
+</html>
